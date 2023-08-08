@@ -1,0 +1,174 @@
+body {
+    background-color: cornflowerblue;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow-y: hidden;
+    background-image: url("bground2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/home.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/info.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu-boxed.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/user.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/globe-alt.css');
+
+
+
+div {
+    position: absolute;
+    z-index: outset;
+    border: 1px solid black;
+    width: 60px;
+    height: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: rgb(27, 25, 25);
+    transition: width 0.30s;
+    overflow: hidden;
+
+}
+
+div:hover {
+    width: 170px;
+}
+
+.home {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 40px;
+    top: 10px;
+}
+
+.home:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 40px;
+    top: 110px;
+}
+
+.menu:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 40px;
+    top: 210px;
+}
+
+.about:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.service {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 40px;
+    top: 310px;
+}
+
+.service:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 0px;
+    padding: 20px;
+    margin-left: 40px;
+    top: 410px;
+}
+
+.contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.gg-home {
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.gg-menu-boxed {
+    margin-top: 95px;
+    margin-left: 20px;
+}
+
+.gg-info {
+    margin-top: 177px;
+    margin-left: 20px;
+}
+
+.gg-user {
+    margin-top: 241px;
+    margin-left: 22px;
+}
+
+.gg-globe-alt {
+    margin-top: 341px;
+    margin-left: 20px;
+}
+
+.shaurma {
+    position: relative;
+    left: 350px;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+.shaurma {
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in;
+}
+
+.shaurma:hover {
+    cursor: pointer;
+    transform: scale(1.4) rotate(5deg);
+    box-shadow: 8px, 0px, 26px rgb(0, 0, 0.5);
+}
